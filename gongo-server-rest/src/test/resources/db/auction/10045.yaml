@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: joshua.hunter@gongo.com
+bids: ['10045_0', '10045_1', '10045_2', '10045_3']
+currency: USD
+endTime: 1592335190950
+id: 10045
+minimumPrice: 610.49
+productId: AVpf3txeLJeJML43FN82_43
+startTime: 1591298390950

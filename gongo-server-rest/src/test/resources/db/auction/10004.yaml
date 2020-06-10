@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: tim.lawrence@gongo.com
+bids: ['10004_0', '10004_1', '10004_2', '10004_3', '10004_4']
+currency: USD
+endTime: 1592162390756
+id: 10004
+minimumPrice: 264.37
+productId: AVpf3txeLJeJML43FN82_1
+startTime: 1591557590756

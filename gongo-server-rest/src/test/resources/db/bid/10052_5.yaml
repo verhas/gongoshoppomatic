@@ -1,0 +1,3 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 513.7, bidder: steven.wallace@gongo.com,
+  conversionRate: !!float '1', convertedAmount: 513.7, currency: USD, id: '10052_5',
+  time: 1591800592845}

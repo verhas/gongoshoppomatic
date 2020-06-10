@@ -1,0 +1,69 @@
+{@options lenient}
+{@import pom.jim}
+{project |pom|
+    {GAV :{GROUPID}:gongo-parent:{VERSION}}
+    {name/gongo-parent}
+    {description/Open gongo implementation}
+    {modules|gongo-server-rest,gongo-api,gongo-persistence,gongo-persistence-file,gongo-persistence-memory}
+    {license|The Apache License, Version 2.0|http://www.apache.org/licenses/LICENSE-2.0.txt}
+    {developer|Peter Verhas|peter@verhas.com}
+    {github|verhas|gongo}
+    {properties|
+        {property :project.build.sourceEncoding:UTF-8}
+        {property :profile:default}
+    }
+    {build|{pluginManagement|{plugins|
+                {plugin|
+                    {GAV :org.apache.maven.plugins:maven-surefire-plugin:{SUREFIRE_VERSION}}
+                    {dependencies|
+                        {dependency :org.junit.jupiter:junit-jupiter-engine:{JUPITER_VERSION}:}
+                    }
+                }
+                {plugin|
+                    {GAV :org.apache.maven.plugins:maven-source-plugin:{MAVEN_SOURCE_PLUGIN_VERSION}}
+                    {executions|
+                        {execution|
+                            {id|attach-sources}
+                            {goals|{goal|jar}}
+                        }
+                    }
+                }
+                {plugin|
+                    {GAV :org.apache.maven.plugins:maven-javadoc-plugin:{MAVEN_JAVADOC_PLUGIN_VERSION}}
+                    {configuration|
+                        <detectLinks>false</detectLinks>
+                        <failOnError>false</failOnError>
+                    }
+                    {executions|
+                        {execution|
+                            {id|attach-javadocs}
+                            {goals|{goal|jar}}
+                        }
+                    }
+                }
+                {plugin|
+                    {GAV :org.apache.maven.plugins:maven-compiler-plugin:{MAVEN_COMPILER_PLUGIN_VERSION}}
+                    {configuration|
+                        <release>{JAVA_RELEASE}</release>
+                        <source>{JAVA_RELEASE}</source>
+                        <target>{JAVA_RELEASE}</target>
+                    }
+                }
+            }
+        }
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    }
+    {dependencyManagement|
+        {dependencies|
+            {@for MODULE in (server-rest,persistence,persistence-file,persistence-memory,api,server-rest)={dependency :{GROUPID}:gongo-MODULE:{VERSION}:}}
+            {@for MODULE in (api,engine)={dependency :org.junit.jupiter:junit-jupiter-MODULE:{JUPITER_VERSION}:test}}
+            {dependency :org.assertj:assertj-core:{ASSERTJ_VERSION}:test}
+            {dependency :org.yaml:snakeyaml:{SNAKEYAML_VERSION}:}
+        }
+    }
+}

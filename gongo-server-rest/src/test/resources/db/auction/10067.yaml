@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: sally.forsyth@gongo.com
+bids: ['10067_0', '10067_1', '10067_2', '10067_3', '10067_4']
+currency: USD
+endTime: 1592335191027
+id: 10067
+minimumPrice: 631.7
+productId: AVpf3txeLJeJML43FN82_97
+startTime: 1591384791027

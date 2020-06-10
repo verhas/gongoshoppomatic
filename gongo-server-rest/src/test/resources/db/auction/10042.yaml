@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: emma.mills@gongo.com
+bids: ['10042_0', '10042_1', '10042_2', '10042_3', '10042_4', '10042_5', '10042_6',
+  '10042_7', '10042_8']
+currency: USD
+endTime: 1591989590934
+id: 10042
+minimumPrice: 658.68
+productId: AVpf3txeLJeJML43FN82_83
+startTime: 1591298390934

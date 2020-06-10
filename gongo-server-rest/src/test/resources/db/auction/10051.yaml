@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: alan.dickens@gongo.com
+bids: ['10051_0', '10051_1', '10051_2']
+currency: USD
+endTime: 1592075990967
+id: 10051
+minimumPrice: 540.73
+productId: AVpf3txeLJeJML43FN82_96
+startTime: 1591384790967

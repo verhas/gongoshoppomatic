@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: deirdre.underwood@gongo.com
+bids: ['10026_0', '10026_1', '10026_2', '10026_3', '10026_4', '10026_5']
+currency: USD
+endTime: 1591816790856
+id: 10026
+minimumPrice: 959.47
+productId: AVpf3txeLJeJML43FN82_57
+startTime: 1591643990856

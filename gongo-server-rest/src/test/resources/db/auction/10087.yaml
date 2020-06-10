@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: matt.lee@gongo.com
+bids: ['10087_0', '10087_1']
+currency: USD
+endTime: 1591903191067
+id: 10087
+minimumPrice: 74.33
+productId: AVpf3txeLJeJML43FN82_91
+startTime: 1591298391067

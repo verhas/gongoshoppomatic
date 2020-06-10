@@ -1,0 +1,3 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 137.31, bidder: stephanie.carr@gongo.com,
+  conversionRate: !!float '1', convertedAmount: 137.31, currency: USD, id: '10025_3',
+  time: 1591816798352}

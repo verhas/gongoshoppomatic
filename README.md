@@ -7,3 +7,5 @@ The structure of the repository:
 
 - DOCUMENTATION contains documentation files
 - POC contains the projects for the proof of concept application
+- REFERENCE_DATA constant reference data
+

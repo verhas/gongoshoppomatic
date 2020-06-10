@@ -1,0 +1,3 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 224.37, bidder: rebecca.lambert@gongo.com,
+  conversionRate: !!float '1', convertedAmount: 224.37, currency: USD, id: '10077_3',
+  time: 1591816701009}

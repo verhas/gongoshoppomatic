@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: eric.abraham@gongo.com
+bids: ['10036_0', '10036_1', '10036_2', '10036_3', '10036_4', '10036_5', '10036_6',
+  '10036_7', '10036_8']
+currency: USD
+endTime: 1591989590906
+id: 10036
+minimumPrice: 850.5
+productId: AVpf3txeLJeJML43FN82_21
+startTime: 1591471190906

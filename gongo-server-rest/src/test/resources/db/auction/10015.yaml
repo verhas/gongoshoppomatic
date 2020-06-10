@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: steven.wallace@gongo.com
+bids: ['10015_0', '10015_1', '10015_2', '10015_3', '10015_4', '10015_5', '10015_6',
+  '10015_7']
+currency: USD
+endTime: 1592162390818
+id: 10015
+minimumPrice: 169.10
+productId: AVpf3txeLJeJML43FN82_93
+startTime: 1591384790818

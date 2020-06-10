@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: eric.abraham@gongo.com
+bids: ['10065_0', '10065_1', '10065_2', '10065_3', '10065_4', '10065_5', '10065_6']
+currency: USD
+endTime: 1591816791021
+id: 10065
+minimumPrice: 710.54
+productId: AVpf3txeLJeJML43FN82_58
+startTime: 1591384791021

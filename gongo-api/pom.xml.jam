@@ -1,0 +1,14 @@
+{@import ../pom.jim}
+{project |jar|
+    {GAV ::gongo-api:{VERSION}}
+    {parent :gongo-parent}
+    {name|GonGo api}
+    {description|GonGo interfaces}
+
+    {@include ../plugins.jim}
+    {dependencies#
+        {@for MODULE in (api,engine)=
+            {dependency :org.junit.jupiter:junit-jupiter-MODULE::}}
+        {dependency :org.assertj:assertj-core::}
+    }
+}

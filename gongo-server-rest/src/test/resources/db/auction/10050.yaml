@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: ava.young@gongo.com
+bids: ['10050_0', '10050_1', '10050_2']
+currency: USD
+endTime: 1591903190965
+id: 10050
+minimumPrice: 669.73
+productId: AVpf3txeLJeJML43FN82_79
+startTime: 1591816790965

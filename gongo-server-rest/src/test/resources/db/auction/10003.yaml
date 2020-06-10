@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: eric.poole@gongo.com
+bids: ['10003_0', '10003_1', '10003_2', '10003_3', '10003_4', '10003_5', '10003_6',
+  '10003_7']
+currency: USD
+endTime: 1592075990746
+id: 10003
+minimumPrice: 990.3
+productId: AVpf3txeLJeJML43FN82_88
+startTime: 1591730390746

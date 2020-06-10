@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: tim.lawrence@gongo.com
+bids: ['10091_0', '10091_1', '10091_2', '10091_3', '10091_4', '10091_5', '10091_6',
+  '10091_7', '10091_8']
+currency: USD
+endTime: 1592248791074
+id: 10091
+minimumPrice: 851.89
+productId: AVpf3txeLJeJML43FN82_13
+startTime: 1591471191074

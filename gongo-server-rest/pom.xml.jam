@@ -1,0 +1,49 @@
+{@import ../pom.jim}
+{project |jar|
+    {GAV ::gongo-server-rest:{VERSION}}
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.0.M3</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    {name|GonGo REST Server}
+    {description|gongo REST Server}
+    {dependencies#
+        {@for $MODULE in (persistence,
+                          persistence-file,
+                          api)={dependency :{GROUPID}:gongo-$MODULE:{VERSION}:}}
+        {@for MODULE in (api,engine)=
+            {dependency :org.junit.jupiter:junit-jupiter-MODULE::}}
+        {dependency :org.springframework.boot:spring-boot-starter::}
+        {dependency :org.springframework.boot:spring-boot-starter-web::}
+        {dependency :org.springframework.boot:spring-boot-starter-test::test}
+        {dependency :org.springframework.boot:spring-boot-starter-security::}
+        {@comment
+        {@define SPRING_SECURITY_GID=org.springframework.security}
+        {dependency :{SPRING_SECURITY_GID}:spring-security-web::}
+        {dependency :{SPRING_SECURITY_GID}:spring-security-config::}}
+    }
+    {build|{plugins|
+            {plugin|{GAV :org.apache.maven.plugins:maven-surefire-plugin:}}
+            {plugin|{GAV :org.apache.maven.plugins:maven-source-plugin:}}
+            {plugin|{GAV :org.apache.maven.plugins:maven-javadoc-plugin: }}
+            {plugin|{GAV :org.springframework.boot:spring-boot-maven-plugin: }}
+    }}
+
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+}

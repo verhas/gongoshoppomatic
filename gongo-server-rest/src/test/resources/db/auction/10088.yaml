@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: abigail.nolan@gongo.com
+bids: ['10088_0', '10088_1', '10088_2', '10088_3', '10088_4', '10088_5']
+currency: USD
+endTime: 1592075991068
+id: 10088
+minimumPrice: 260.23
+productId: AVpf3txeLJeJML43FN82_29
+startTime: 1591384791068

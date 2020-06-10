@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: rebecca.metcalfe@gongo.com
+bids: ['10043_0', '10043_1', '10043_2', '10043_3', '10043_4', '10043_5', '10043_6']
+currency: USD
+endTime: 1591989590941
+id: 10043
+minimumPrice: 131.95
+productId: AVpf3txeLJeJML43FN82_95
+startTime: 1591730390941

@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: ian.short@gongo.com
+bids: ['10017_0', '10017_1', '10017_2']
+currency: USD
+endTime: 1591903190826
+id: 10017
+minimumPrice: 703.6
+productId: AVpf3txeLJeJML43FN82_0
+startTime: 1591298390826

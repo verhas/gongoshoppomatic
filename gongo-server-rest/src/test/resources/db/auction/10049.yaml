@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: gavin.rutherford@gongo.com
+bids: ['10049_0', '10049_1', '10049_2', '10049_3', '10049_4', '10049_5', '10049_6',
+  '10049_7', '10049_8']
+currency: USD
+endTime: 1592162390960
+id: 10049
+minimumPrice: 152.18
+productId: AVpf3txeLJeJML43FN82_38
+startTime: 1591816790960

@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: frank.vaughan@gongo.com
+bids: ['10052_0', '10052_1', '10052_2', '10052_3', '10052_4', '10052_5', '10052_6']
+currency: USD
+endTime: 1592162390970
+id: 10052
+minimumPrice: 325.7
+productId: AVpf3txeLJeJML43FN82_59
+startTime: 1591298390970

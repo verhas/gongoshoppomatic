@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: tim.lawrence@gongo.com
+bids: ['10062_0', '10062_1', '10062_2', '10062_3']
+currency: USD
+endTime: 1592248791012
+id: 10062
+minimumPrice: 31.99
+productId: AVpf3txeLJeJML43FN82_4
+startTime: 1591557591012

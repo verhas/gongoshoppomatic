@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: ian.short@gongo.com
+bids: ['10046_0']
+currency: USD
+endTime: 1591903190953
+id: 10046
+minimumPrice: 112.8
+productId: AVpf3txeLJeJML43FN82_14
+startTime: 1591557590953

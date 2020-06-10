@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: ian.short@gongo.com
+bids: ['10075_0', '10075_1', '10075_2', '10075_3', '10075_4', '10075_5', '10075_6',
+  '10075_7', '10075_8']
+currency: USD
+endTime: 1592075991040
+id: 10075
+minimumPrice: 982.53
+productId: AVpf3txeLJeJML43FN82_3
+startTime: 1591816791040

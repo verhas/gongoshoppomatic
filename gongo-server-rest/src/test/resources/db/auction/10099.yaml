@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: hannah.brown@gongo.com
+bids: []
+currency: USD
+endTime: 1592335191097
+id: 10099
+minimumPrice: 448.73
+productId: AVpf3txeLJeJML43FN82_48
+startTime: 1591298391097

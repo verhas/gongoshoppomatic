@@ -1,0 +1,30 @@
+<html>
+<header>
+
+</header>
+<body>
+<script>
+    function sendPost(){
+        var content = document.getElementById("jsontext").value;
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", '/auction/', true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.onreadystatechange = function() {
+            var response = document.getElementById("response");
+            response.value = JSON.stringify(this);
+        }
+        xhr.send(content);
+    }
+</script>
+
+<p>Sending to auction</p>
+<textarea id="jsontext" cols="80" rows="25">
+</textarea>
+<textarea id="response" cols="80" rows="25">
+</textarea>
+
+
+<button onclick="sendPost();">SEND POST</button>
+
+</body>
+</html>

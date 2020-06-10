@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: anthony.duncan@gongo.com
+bids: ['10018_0', '10018_1', '10018_2', '10018_3', '10018_4', '10018_5', '10018_6',
+  '10018_7', '10018_8']
+currency: USD
+endTime: 1592162390829
+id: 10018
+minimumPrice: 35.47
+productId: AVpf3txeLJeJML43FN82_66
+startTime: 1591730390829

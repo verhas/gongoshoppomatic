@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: david.harris@gongo.com
+bids: ['10006_0', '10006_1', '10006_2']
+currency: USD
+endTime: 1592075990776
+id: 10006
+minimumPrice: 973.76
+productId: AVpf3txeLJeJML43FN82_92
+startTime: 1591298390776

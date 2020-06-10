@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: david.wilson@gongo.com
+bids: ['10028_0', '10028_1', '10028_2']
+currency: USD
+endTime: 1592335190866
+id: 10028
+minimumPrice: 496.23
+productId: AVpf3txeLJeJML43FN82_77
+startTime: 1591816790866

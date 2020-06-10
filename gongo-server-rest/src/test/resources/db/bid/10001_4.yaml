@@ -1,0 +1,3 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 861023939.83, bidder: deirdre.underwood@gongo.com,
+  conversionRate: !!float '1', convertedAmount: 861023939.83, currency: USD, id: '10001_4',
+  time: 1591816648985}

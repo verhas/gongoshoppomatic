@@ -1,0 +1,16 @@
+{@import ../pom.jim}
+{project |jar|
+    {GAV ::gongo-persistence-file:{VERSION}}
+    {parent :gongo-parent}
+    {name|GonGo persistence implementation in memory}
+    {description|GonGo persistence memory implementation}
+
+    {@include ../plugins.jim}
+    {dependencies#
+        {@for MODULE in (persistence,api)={dependency :{GROUPID}:gongo-MODULE::}}
+        {@for MODULE in (api,engine)=
+            {dependency :org.junit.jupiter:junit-jupiter-MODULE::}}
+        {dependency :org.yaml:snakeyaml::}
+        {dependency :org.assertj:assertj-core::}
+    }
+}

@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: hannah.brown@gongo.com
+bids: ['10041_0', '10041_1', '10041_2', '10041_3', '10041_4', '10041_5']
+currency: USD
+endTime: 1591816790929
+id: 10041
+minimumPrice: 998.48
+productId: AVpf3txeLJeJML43FN82_17
+startTime: 1591298390929

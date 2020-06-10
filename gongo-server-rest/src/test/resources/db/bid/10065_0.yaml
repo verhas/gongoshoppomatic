@@ -1,0 +1,2 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 710.54, bidder: thomas.quinn@gongo.com, conversionRate: !!float '1',
+  convertedAmount: 710.54, currency: USD, id: '10065_0', time: 1591384851021}

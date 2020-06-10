@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: thomas.quinn@gongo.com
+bids: ['10040_0', '10040_1', '10040_2', '10040_3']
+currency: USD
+endTime: 1592248790926
+id: 10040
+minimumPrice: 96.50
+productId: AVpf3txeLJeJML43FN82_40
+startTime: 1591730390926

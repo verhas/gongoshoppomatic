@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: tim.lawrence@gongo.com
+bids: ['10033_0', '10033_1', '10033_2', '10033_3', '10033_4', '10033_5']
+currency: USD
+endTime: 1592162390892
+id: 10033
+minimumPrice: 574.21
+productId: AVpf3txeLJeJML43FN82_6
+startTime: 1591816790892

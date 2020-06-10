@@ -1,0 +1,10 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: alan.dickens@gongo.com
+bids: ['10022_0', '10022_1', '10022_2', '10022_3', '10022_4', '10022_5', '10022_6',
+  '10022_7', '10022_8']
+currency: USD
+endTime: 1592335190842
+id: 10022
+minimumPrice: 78.61
+productId: AVpf3txeLJeJML43FN82_94
+startTime: 1591643990842

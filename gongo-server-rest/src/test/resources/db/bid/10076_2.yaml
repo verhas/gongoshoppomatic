@@ -1,0 +1,3 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 342818646.30, bidder: tim.lawrence@gongo.com,
+  conversionRate: !!float '1', convertedAmount: 342818646.30, currency: USD, id: '10076_2',
+  time: 1591751860549}

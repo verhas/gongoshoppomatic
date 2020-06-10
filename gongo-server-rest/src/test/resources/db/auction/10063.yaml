@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: dorothy.underwood@gongo.com
+bids: ['10063_0', '10063_1', '10063_2', '10063_3', '10063_4', '10063_5', '10063_6']
+currency: USD
+endTime: 1592075991015
+id: 10063
+minimumPrice: 168.42
+productId: AVpf3txeLJeJML43FN82_62
+startTime: 1591643991015

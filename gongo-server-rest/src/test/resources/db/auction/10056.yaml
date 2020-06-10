@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: colin.manning@gongo.com
+bids: []
+currency: USD
+endTime: 1591989590993
+id: 10056
+minimumPrice: 651.42
+productId: AVpf3txeLJeJML43FN82_34
+startTime: 1591384790993
