@@ -1,6 +1,6 @@
 = Shoppomatic GonGo Proposed Architecture
 :version: 1.0.1-SNAPSHOT
-:imagesdir: images
+:imagesdir: diagrams
 
 Version: {version}
 
@@ -43,7 +43,7 @@ mean different advantages to different actors in the process.
 
 == General Architecture
 
-image::diagrams/architecture.svg[]
+image::architecture.svg[]
 
 
 
