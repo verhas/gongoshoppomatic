@@ -40,7 +40,11 @@ happen at different times.
 The exchange rate is likely be different between these times. The difference between the different exchange rates may
 mean different advantages to different actors in the process.
 
-== Actors and Use Cases
+== Actors
+
+image::actors.svg[]
+
+==Use Cases
 
 image::usecase bidding.svg[]
 
