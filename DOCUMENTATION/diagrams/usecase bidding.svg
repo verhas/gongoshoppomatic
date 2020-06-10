@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="399 262 834 326" width="834" height="326">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="315.6" y="229.4">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-06-10 12:02:38 +0000</dc:date>
+  </metadata>
+  <g id="usecase_bidding" fill="none" stroke-opacity="1" stroke-dasharray="none" fill-opacity="1" stroke="none">
+    <title>usecase bidding</title>
+    <rect fill="white" x="399" y="262" width="834" height="326"/>
+    <g id="usecase_bidding: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_20_shadow" filter="url(#Shadow)">
+        <ellipse cx="433" cy="280" rx="11.3333514428881" ry="9.0000143811171" fill="white"/>
+        <ellipse cx="433" cy="280" rx="11.3333514428881" ry="9.0000143811171" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_10_shadow" filter="url(#Shadow)">
+        <circle cx="1206" cy="507" r="9.00001438111712" fill="white"/>
+        <circle cx="1206" cy="507" r="9.00001438111712" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_22_shadow" filter="url(#Shadow)">
+        <ellipse cx="802" cy="381.5" rx="118.000188552424" ry="88.5001414143178" fill="white"/>
+        <ellipse cx="802" cy="381.5" rx="118.000188552424" ry="88.5001414143178" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_12">
+        <g id="Graphic_21"/>
+        <g id="Group_14">
+          <g id="Graphic_20">
+            <ellipse cx="433" cy="280" rx="11.3333514428881" ry="9.0000143811171" fill="white"/>
+            <ellipse cx="433" cy="280" rx="11.3333514428881" ry="9.0000143811171" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_19">
+            <line x1="433" y1="289" x2="433" y2="316" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_18">
+            <line x1="433" y1="316" x2="421.66667" y2="343" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_17">
+            <line x1="433" y1="316" x2="444.33333" y2="343" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_16">
+            <line x1="433" y1="298" x2="410.33333" y2="298" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_15">
+            <line x1="455.66667" y1="298" x2="433" y2="298" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Graphic_13">
+          <text transform="translate(404 344.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="1.9941406" y="11">auctioner</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_2">
+        <g id="Graphic_11"/>
+        <g id="Group_4">
+          <g id="Graphic_10">
+            <circle cx="1206" cy="507" r="9.00001438111712" fill="white"/>
+            <circle cx="1206" cy="507" r="9.00001438111712" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_9">
+            <line x1="1206" y1="516" x2="1206" y2="543" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_8">
+            <line x1="1206" y1="543" x2="1197" y2="570" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_7">
+            <line x1="1206" y1="543" x2="1215" y2="570" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_6">
+            <line x1="1206" y1="525" x2="1188" y2="525" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_5">
+            <line x1="1224" y1="525" x2="1206" y2="525" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Graphic_3">
+          <text transform="translate(1184 571.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="3.6660156" y="11">bidder</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_22">
+        <ellipse cx="802" cy="381.5" rx="118.000188552424" ry="88.5001414143178" fill="white"/>
+        <ellipse cx="802" cy="381.5" rx="118.000188552424" ry="88.5001414143178" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(712.6 374.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="70.052345" y="11">auction</tspan>
+        </text>
+      </g>
+      <g id="Line_24">
+        <line x1="687.0938" y1="359.7021" x2="467" y2="317.94986" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_25">
+        <text transform="translate(404 373)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">registers and schedules auction</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">modifies running auction</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="51.895996">provides feedback on closed auction</tspan>
+        </text>
+      </g>
+      <g id="Line_26">
+        <line x1="907.2649" y1="422.4074" x2="1179" y2="528.0074" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_27">
+        <text transform="translate(914 535)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">bids on the auction,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">provides feedback on won auction</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

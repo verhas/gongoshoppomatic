@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="171 82 921 219" width="921" height="219">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="78.9" y="60.1">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -8 20 16" markerWidth="20" markerHeight="16" color="black">
+      <g>
+        <path d="M 17.714289 0 L 0 0 M 0 -6.642858 L 17.714289 0 L 0 6.642858" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-06-10 12:02:38 +0000</dc:date>
+  </metadata>
+  <g id="actors" fill="none" stroke-opacity="1" stroke-dasharray="none" fill-opacity="1" stroke="none">
+    <title>actors</title>
+    <rect fill="white" x="171" y="82" width="921" height="219"/>
+    <g id="actors: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_34_shadow" filter="url(#Shadow)">
+        <circle cx="331" cy="100" r="9.00001438111707" fill="white"/>
+        <circle cx="331" cy="100" r="9.00001438111707" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_24_shadow" filter="url(#Shadow)">
+        <ellipse cx="205" cy="220" rx="11.3333514428882" ry="9.00001438111709" fill="white"/>
+        <ellipse cx="205" cy="220" rx="11.3333514428882" ry="9.00001438111709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_14_shadow" filter="url(#Shadow)">
+        <circle cx="460" cy="220" r="9.00001438111709" fill="white"/>
+        <circle cx="460" cy="220" r="9.00001438111709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_44_shadow" filter="url(#Shadow)">
+        <ellipse cx="659.5" cy="102.36364" rx="14.5000231695775" ry="10.1818344513648" fill="white"/>
+        <ellipse cx="659.5" cy="102.36364" rx="14.5000231695775" ry="10.1818344513648" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_26">
+        <g id="Graphic_35"/>
+        <g id="Group_28">
+          <g id="Graphic_34">
+            <circle cx="331" cy="100" r="9.00001438111707" fill="white"/>
+            <circle cx="331" cy="100" r="9.00001438111707" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_33">
+            <line x1="331" y1="109" x2="331" y2="136" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_32">
+            <line x1="331" y1="136" x2="322" y2="163" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_31">
+            <line x1="331" y1="136" x2="340" y2="163" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_30">
+            <line x1="331" y1="118" x2="313" y2="118" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_29">
+            <line x1="349" y1="118" x2="331" y2="118" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Graphic_27">
+          <text transform="translate(309 164.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="9.326172" y="11">user</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_16">
+        <g id="Graphic_25"/>
+        <g id="Group_18">
+          <g id="Graphic_24">
+            <ellipse cx="205" cy="220" rx="11.3333514428882" ry="9.00001438111709" fill="white"/>
+            <ellipse cx="205" cy="220" rx="11.3333514428882" ry="9.00001438111709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_23">
+            <line x1="205" y1="229" x2="205" y2="256" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_22">
+            <line x1="205" y1="256" x2="193.66667" y2="283" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_21">
+            <line x1="205" y1="256" x2="216.33333" y2="283" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_20">
+            <line x1="205" y1="238" x2="182.33333" y2="238" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_19">
+            <line x1="227.66667" y1="238" x2="205" y2="238" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Graphic_17">
+          <text transform="translate(176 284.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="1.9941406" y="11">auctioner</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_6">
+        <g id="Graphic_15"/>
+        <g id="Group_8">
+          <g id="Graphic_14">
+            <circle cx="460" cy="220" r="9.00001438111709" fill="white"/>
+            <circle cx="460" cy="220" r="9.00001438111709" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_13">
+            <line x1="460" y1="229" x2="460" y2="256" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_12">
+            <line x1="460" y1="256" x2="451" y2="283" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_11">
+            <line x1="460" y1="256" x2="469" y2="283" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_10">
+            <line x1="460" y1="238" x2="442" y2="238" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_9">
+            <line x1="478" y1="238" x2="460" y2="238" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Graphic_7">
+          <text transform="translate(438 284.5)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="3.6660156" y="11">bidder</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_5">
+        <rect x="381" y="180" width="66.04492" height="14" fill="white"/>
+        <text transform="translate(386 180)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">&lt;extends&gt;</tspan>
+        </text>
+      </g>
+      <g id="Line_4">
+        <line x1="433" y1="234.7558" x2="362.1816" y2="190.83741" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_3">
+        <line x1="239" y1="229.9127" x2="300.26637" y2="191.01342" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_2">
+        <rect x="214" y="180" width="66.04492" height="14" fill="white"/>
+        <text transform="translate(219 180)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">&lt;extends&gt;</tspan>
+        </text>
+      </g>
+      <g id="Group_36">
+        <g id="Graphic_45"/>
+        <g id="Group_38">
+          <g id="Graphic_44">
+            <ellipse cx="659.5" cy="102.36364" rx="14.5000231695775" ry="10.1818344513648" fill="white"/>
+            <ellipse cx="659.5" cy="102.36364" rx="14.5000231695775" ry="10.1818344513648" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_43">
+            <line x1="659.5" y1="112.54545" x2="659.5" y2="143.09091" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_42">
+            <line x1="659.5" y1="143.09091" x2="645" y2="173.63636" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_41">
+            <line x1="659.5" y1="143.09091" x2="674" y2="173.63636" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_40">
+            <line x1="659.5" y1="122.72727" x2="630.5" y2="122.72727" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Line_39">
+            <line x1="688.5" y1="122.72727" x2="659.5" y2="122.72727" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Graphic_37">
+          <text transform="translate(621 169.25253)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="5.160156" y="11">auction site </tspan>
+            <tspan font-family="Helvetica" font-size="12" font-weight="700" fill="black" x="13.489258" y="25">manager</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
