@@ -92,8 +92,9 @@ The components on the picture are:
 11. External Currency Ratio Provider is an external service that should be used as reference to fetch currency exchange
     rates from.
 
-12. User Registry manages the set of the users. This component stores the parameters of the registered users and also
-    manages the user verification process.
+12. User Registry manages the set of the users. This component stores the parameters of the registered users, and it
+    also manages the user verification process. The API of the registry in later detailed design should consider that
+    the registry data is split up between different territories.
 
 13. Verification #Interface# is a unified interface that can communicate with the different external Verification
     Providers.
