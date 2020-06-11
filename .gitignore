@@ -24,3 +24,4 @@ target
 hs_err_pid*
 /REFERENCE_DATA/.idea/
 *.iml
+.idea
