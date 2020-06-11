@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: eric.abraham@gongo.com
-bids: []
-currency: USD
-endTime: 1592335191086
-id: 10094
-minimumPrice: 787.82
-productId: AVpf3txeLJeJML43FN82_72
-startTime: 1591384791086

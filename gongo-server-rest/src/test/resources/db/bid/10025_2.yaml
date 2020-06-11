@@ -1,3 +1,2 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 121.31, bidder: frank.vaughan@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 121.31, currency: USD, id: '10025_2',
-  time: 1591816805852}
+!!com.epam.vpase.gongo.core.Bid {amount: 468.24, bidder: tim.lawrence@gongo.com, conversionRate: !!float '1',
+  convertedAmount: 468.24, currency: USD, id: '10025_2', time: 1591789232016}

@@ -18,4 +18,18 @@ public class Exceptions {
     @ResponseStatus(code = HttpStatus.FORBIDDEN, reason = "Bid amount is not high enough")
     public static class AmountIsLow extends RuntimeException {
     }
+
+    @ResponseStatus(code = HttpStatus.FORBIDDEN, reason = "Product id is invalid")
+    public static class Product extends RuntimeException {
+        public Product(String id) {
+            super(id);
+        }
+    }
+
+    @ResponseStatus(code = HttpStatus.FORBIDDEN, reason = "Auction id is invalid")
+    public static class Auction extends RuntimeException {
+        public Auction(String id) {
+            super(id);
+        }
+    }
 }

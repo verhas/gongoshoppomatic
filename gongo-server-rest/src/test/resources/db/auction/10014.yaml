@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: rebecca.metcalfe@gongo.com
-bids: ['10014_0', '10014_1', '10014_2', '10014_3', '10014_4', '10014_5']
+bids: ['10014_0', '10014_1', '10014_2', '10014_3', '10014_4', '10014_5', '10014_6']
 currency: USD
-endTime: 1592335190814
-id: 10014
-minimumPrice: 315.91
-productId: AVpf3txeLJeJML43FN82_85
-startTime: 1591557590814
+endTime: 1592178016961
+id: '10014'
+minimumPrice: 814.69
+productId: AV15fqDs-jtxr-f38R4C_54
+startTime: 1591573216961

@@ -1,3 +1,0 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 909.46, bidder: colin.manning@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 909.46, currency: USD, id: '10072_5',
-  time: 1591816695365}

@@ -1,0 +1,53 @@
+<html>
+<header>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</header>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">List Auctions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="listProducts">New Auction</a>
+        </li>
+    </ul>
+
+</nav>
+<script>
+$(document).ready(
+    function(){
+        $.get("/list/auctions/*",
+            function(auctions, status){
+                var data = "";
+                for( response of auctions ){
+                    data += "<li id=\""+response.auction.id+"\"><a href='showAuction?id="+response.auction.id+"'>"+response.product.name+"</a>";
+                    data += "<ol>";
+                    for( bid of response.bidList ){
+                        data += "<li>"+bid.bidder+": "+bid.amount+" "+bid.currency+"</li>"
+                    }
+                    data += "</ol>";
+                    data += "</li>";
+                }
+                $("#auctionList").html(data);
+            }
+        )
+    }
+);
+
+
+
+
+</script>
+
+
+<ul id="auctionList">
+
+</ul>
+
+</body>
+</html>

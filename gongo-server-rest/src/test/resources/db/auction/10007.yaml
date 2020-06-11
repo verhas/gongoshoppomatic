@@ -1,9 +1,10 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: eric.abraham@gongo.com
-bids: ['10007_0']
+bids: ['10007_0', '10007_1', '10007_2', '10007_3', '10007_4', '10007_5', '10007_6',
+  '10007_7']
 currency: USD
-endTime: 1591816790780
-id: 10007
-minimumPrice: 390.60
-productId: AVpf3txeLJeJML43FN82_84
-startTime: 1591557590780
+endTime: 1592091616915
+id: '10007'
+minimumPrice: 283.79
+productId: AVpgF1BOilAPnD_xnTsK_94
+startTime: 1591659616915

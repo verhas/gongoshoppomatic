@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: david.wilson@gongo.com
-bids: ['10086_0', '10086_1', '10086_2', '10086_3']
-currency: USD
-endTime: 1591903191065
-id: 10086
-minimumPrice: 865.0
-productId: AVpf3txeLJeJML43FN82_90
-startTime: 1591816791065

@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: matt.lee@gongo.com
-bids: ['10000_0']
+bids: ['10000_0', '10000_1']
 currency: USD
-endTime: 1592335190695
-id: 10000
-minimumPrice: 553.10
-productId: AVpf3txeLJeJML43FN82_71
-startTime: 1591384790695
+endTime: 1592350816793
+id: '10000'
+minimumPrice: 589.53
+productId: AVpfnuDailAPnD_xfKZY_61
+startTime: 1591573216793

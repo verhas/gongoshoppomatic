@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: gavin.rutherford@gongo.com
-bids: ['10020_0', '10020_1', '10020_2']
+bids: ['10020_0', '10020_1', '10020_2', '10020_3', '10020_4']
 currency: USD
-endTime: 1591989590837
-id: 10020
-minimumPrice: 245.8
-productId: AVpf3txeLJeJML43FN82_27
-startTime: 1591730390837
+endTime: 1592350816994
+id: '10020'
+minimumPrice: 531.15
+productId: AVqlHaLknnc1JgDc3m5y_71
+startTime: 1591400416994

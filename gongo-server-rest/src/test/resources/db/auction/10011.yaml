@@ -1,10 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: thomas.quinn@gongo.com
-bids: ['10011_0', '10011_1', '10011_2', '10011_3', '10011_4', '10011_5', '10011_6',
-  '10011_7']
+bids: ['10011_0', '10011_1', '10011_2', '10011_3']
 currency: USD
-endTime: 1591903190792
-id: 10011
-minimumPrice: 532.88
-productId: AVpf3txeLJeJML43FN82_50
-startTime: 1591384790792
+endTime: 1592264416939
+id: '10011'
+minimumPrice: 768.43
+productId: AVpf2pgLilAPnD_xjed4_88
+startTime: 1591400416939

@@ -3,8 +3,8 @@ auctioner: emma.mills@gongo.com
 bids: ['10013_0', '10013_1', '10013_2', '10013_3', '10013_4', '10013_5', '10013_6',
   '10013_7']
 currency: USD
-endTime: 1591989590807
-id: 10013
-minimumPrice: 242.9
-productId: AVpf3txeLJeJML43FN82_11
-startTime: 1591471190807
+endTime: 1592178016952
+id: '10013'
+minimumPrice: 888.63
+productId: AVpgjaudilAPnD_xuDKC_63
+startTime: 1591659616952

@@ -1,3 +1,2 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 1834751605.29, bidder: andrea.taylor@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 1834751605.29, currency: USD, id: '10048_2',
-  time: 1591687060445}
+!!com.epam.vpase.gongo.core.Bid {amount: 147.51, bidder: hannah.brown@gongo.com, conversionRate: !!float '1',
+  convertedAmount: 147.51, currency: USD, id: '10048_2', time: 1591702832116}

@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: rebecca.metcalfe@gongo.com
-bids: ['10072_0', '10072_1']
-currency: USD
-endTime: 1591903191037
-id: 10072
-minimumPrice: 810.44
-productId: AVpf3txeLJeJML43FN82_42
-startTime: 1591384791037

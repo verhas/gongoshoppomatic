@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: anthony.duncan@gongo.com
-bids: ['10076_0']
-currency: USD
-endTime: 1592248791044
-id: 10076
-minimumPrice: 233.0
-productId: AVpf3txeLJeJML43FN82_65
-startTime: 1591643991044

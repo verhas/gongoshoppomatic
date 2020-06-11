@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: victor.scott@gongo.com
-bids: ['10048_0']
+bids: ['10048_0', '10048_1', '10048_2', '10048_3', '10048_4', '10048_5']
 currency: USD
-endTime: 1592162390958
-id: 10048
-minimumPrice: 543.33
-productId: AVpf3txeLJeJML43FN82_80
-startTime: 1591471190958
+endTime: 1591832417116
+id: '10048'
+minimumPrice: 77.51
+productId: AVphRsH11cnluZ0-Agzr_91
+startTime: 1591314017116

@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: sally.forsyth@gongo.com
-bids: ['10009_0', '10009_1', '10009_2']
+bids: ['10009_0']
 currency: USD
-endTime: 1592162390783
-id: 10009
-minimumPrice: 941.73
-productId: AVpf3txeLJeJML43FN82_47
-startTime: 1591730390783
+endTime: 1592350816927
+id: '10009'
+minimumPrice: 484.69
+productId: AVpf0Nyo1cnluZ0-rzhu_72
+startTime: 1591400416927

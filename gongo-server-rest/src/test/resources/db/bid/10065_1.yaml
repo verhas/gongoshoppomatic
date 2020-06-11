@@ -1,3 +1,0 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 733.54, bidder: anthony.duncan@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 733.54, currency: USD, id: '10065_1',
-  time: 1591600821021}

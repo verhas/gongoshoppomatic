@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: david.harris@gongo.com
-bids: ['10035_0', '10035_1', '10035_2', '10035_3']
+bids: ['10035_0', '10035_1', '10035_2', '10035_3', '10035_4', '10035_5', '10035_6']
 currency: USD
-endTime: 1592162390903
-id: 10035
-minimumPrice: 660.23
-productId: AVpf3txeLJeJML43FN82_37
-startTime: 1591471190903
+endTime: 1592350817062
+id: '10035'
+minimumPrice: 879.22
+productId: AVpg8i6NilAPnD_xzQdN_87
+startTime: 1591400417062

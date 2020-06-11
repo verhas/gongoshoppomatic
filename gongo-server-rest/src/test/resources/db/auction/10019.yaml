@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: victor.scott@gongo.com
-bids: ['10019_0', '10019_1']
+bids: ['10019_0', '10019_1', '10019_2']
 currency: USD
-endTime: 1591903190835
-id: 10019
-minimumPrice: 482.49
-productId: AVpf3txeLJeJML43FN82_31
-startTime: 1591298390835
+endTime: 1592264416991
+id: '10019'
+minimumPrice: 225.9
+productId: AVpf3txeLJeJML43FN82_99
+startTime: 1591832416991

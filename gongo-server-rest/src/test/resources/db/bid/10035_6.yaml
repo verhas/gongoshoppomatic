@@ -1,0 +1,2 @@
+!!com.epam.vpase.gongo.core.Bid {amount: 1023.22, bidder: mary.fraser@gongo.com, conversionRate: !!float '1',
+  convertedAmount: 1023.22, currency: USD, id: '10035_6', time: 1591825667999}

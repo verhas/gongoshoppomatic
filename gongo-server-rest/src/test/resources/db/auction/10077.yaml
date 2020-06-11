@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: victor.scott@gongo.com
-bids: ['10077_0', '10077_1', '10077_2']
-currency: USD
-endTime: 1591989591045
-id: 10077
-minimumPrice: 151.60
-productId: AVpf3txeLJeJML43FN82_32
-startTime: 1591298391045

@@ -1,0 +1,85 @@
+<html>
+<header>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</header>
+<body>
+<nav class="navbar navbar-expand-sm bg-light">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="listAuctions">List Auctions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="listProducts">New Auction</a>
+        </li>
+    </ul>
+
+</nav>
+<script>
+function getQueryParam(param, defaultValue = undefined) {
+    location.search.substr(1)
+        .split("&")
+        .some(function(item) { // returns first occurrence and stops
+            return item.split("=")[0] == param && (defaultValue = item.split("=")[1], true)
+        })
+    return defaultValue
+}
+
+$(document).ready(
+    function(){
+        $.get("/list/auction/"+ getQueryParam("id"),
+            function(response, status){
+                var data = "";
+                    data += "<b>"+response.product.name+"</b><p>";
+                    data += '<input type="text" id="bidAmount"> USD ';
+                    data += '<button onclick="sendBid();">I want to bid!</button><br/>';
+                    data += "<img src=\"" + response.product.imageURLs.substr(1).split(",")[0]+"\" style='width: 300px; height: 300px'><p>";
+                    data += "Starting price: " + response.auction.minimumPrice + " " +response.auction.currency+"<p>";
+                    data += "Start: " + new Date(response.auction.startTime).toString() +"<p>";
+                    data += "Finish: " + new Date(response.auction.endTime).toString() +"<p>";
+                    data += "<p>Bids:<p>";
+                    data += "<ol>";
+                    for( bid of response.bidList ){
+                        data += "<li>"+bid.bidder+": "+bid.amount+" "+bid.currency
+                        data += " / " + new Date( bid.time ).toString()
+                        data += "</li>"
+                    }
+                    data += "</ol>";
+                $("#auction").html(data);
+            }
+        )
+    }
+);
+
+function sendBid(){
+    var bid = {};
+    bid.amount = $("#bidAmount").val();
+    bid.currency = "USD";
+    var id = getQueryParam("id");
+    $.ajax({
+        type: 'POST',
+        url: "/bid/"+id,
+        data: JSON.stringify(bid),
+        contentType: 'application/json',
+        success: function(data, status){
+                    location.reload();
+                },
+        error: function (request, status, error) {
+                alert(JSON.parse(request.responseText).message);
+            }
+        }
+        );
+}
+
+
+</script>
+
+<div id="auction">
+</div>
+
+
+</body>
+</html>

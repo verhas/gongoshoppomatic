@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: anthony.duncan@gongo.com
-bids: ['10047_0', '10047_1', '10047_2', '10047_3']
+bids: ['10047_0']
 currency: USD
-endTime: 1591989590954
-id: 10047
-minimumPrice: 977.83
-productId: AVpf3txeLJeJML43FN82_9
-startTime: 1591643990954
+endTime: 1591832417115
+id: '10047'
+minimumPrice: 840.1
+productId: AVpgswjcLJeJML43Ro-G_85
+startTime: 1591573217115

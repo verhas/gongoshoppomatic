@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: rebecca.lambert@gongo.com
-bids: ['10097_0', '10097_1', '10097_2']
-currency: USD
-endTime: 1591903191092
-id: 10097
-minimumPrice: 265.58
-productId: AVpf3txeLJeJML43FN82_2
-startTime: 1591471191092

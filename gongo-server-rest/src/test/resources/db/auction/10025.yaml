@@ -1,9 +1,10 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: andrea.taylor@gongo.com
-bids: ['10025_0', '10025_1', '10025_2', '10025_3', '10025_4']
+bids: ['10025_0', '10025_1', '10025_2', '10025_3', '10025_4', '10025_5', '10025_6',
+  '10025_7', '10025_8']
 currency: USD
-endTime: 1592075990852
-id: 10025
-minimumPrice: 85.31
-productId: AVpf3txeLJeJML43FN82_41
-startTime: 1591816790852
+endTime: 1592178017016
+id: '10025'
+minimumPrice: 401.24
+productId: AVpivePGilAPnD_xHH0l_80
+startTime: 1591659617016

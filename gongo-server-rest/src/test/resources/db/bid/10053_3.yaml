@@ -1,2 +1,0 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 512.73, bidder: david.harris@gongo.com, conversionRate: !!float '1',
-  convertedAmount: 512.73, currency: USD, id: '10053_3', time: 1591795198475}

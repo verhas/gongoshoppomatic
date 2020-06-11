@@ -1,10 +1,10 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: eric.poole@gongo.com
 bids: ['10032_0', '10032_1', '10032_2', '10032_3', '10032_4', '10032_5', '10032_6',
-  '10032_7']
+  '10032_7', '10032_8']
 currency: USD
-endTime: 1591816790887
-id: 10032
-minimumPrice: 0.96
-productId: AVpf3txeLJeJML43FN82_61
-startTime: 1591471190887
+endTime: 1592005217045
+id: '10032'
+minimumPrice: 652.53
+productId: AVpiUMISilAPnD_xC-hu_93
+startTime: 1591573217045

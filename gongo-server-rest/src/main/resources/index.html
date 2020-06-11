@@ -1,6 +1,7 @@
 <html>
 <header>
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </header>
 <body>
 <script>
@@ -11,16 +12,34 @@
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.onreadystatechange = function() {
             var response = document.getElementById("response");
-            response.value = JSON.stringify(this);
+            response.value = xhr.responseText;
         }
         xhr.send(content);
     }
 </script>
 
+<nav class="navbar navbar-expand-sm bg-light">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="listAuctions">List Auctions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="listProducts">New Auction</a>
+        </li>
+    </ul>
+
+</nav>
+
+
+
+
 <p>Sending to auction</p>
-<textarea id="jsontext" cols="80" rows="25">
+<textarea id="jsontext" cols="80" rows="10">
 </textarea>
-<textarea id="response" cols="80" rows="25">
+<p>
+<textarea id="response" cols="80" rows="10">
 </textarea>
 
 

@@ -1,10 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: dorothy.underwood@gongo.com
-bids: ['10034_0', '10034_1', '10034_2', '10034_3', '10034_4', '10034_5', '10034_6',
-  '10034_7', '10034_8']
+bids: ['10034_0', '10034_1', '10034_2', '10034_3']
 currency: USD
-endTime: 1591989590897
-id: 10034
-minimumPrice: 800.12
-productId: AVpf3txeLJeJML43FN82_60
-startTime: 1591384790897
+endTime: 1592005217058
+id: '10034'
+minimumPrice: 619.52
+productId: AVpftC_FLJeJML43CLs8_75
+startTime: 1591400417058

@@ -1,9 +1,10 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: rebecca.lambert@gongo.com
-bids: ['10010_0', '10010_1', '10010_2', '10010_3']
+bids: ['10010_0', '10010_1', '10010_2', '10010_3', '10010_4', '10010_5', '10010_6',
+  '10010_7', '10010_8']
 currency: USD
-endTime: 1591989590787
-id: 10010
-minimumPrice: 252.75
-productId: AVpf3txeLJeJML43FN82_51
-startTime: 1591816790787
+endTime: 1592350816929
+id: '10010'
+minimumPrice: 811.58
+productId: AV1YFmcQglJLPUi8IGd1_95
+startTime: 1591746016929

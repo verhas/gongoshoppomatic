@@ -1,2 +1,2 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 1015.47, bidder: ian.short@gongo.com, conversionRate: !!float '1',
-  convertedAmount: 1015.47, currency: USD, id: '10026_2', time: 1591773605856}
+!!com.epam.vpase.gongo.core.Bid {amount: 522.0, bidder: ian.short@gongo.com, conversionRate: !!float '1',
+  convertedAmount: 522.0, currency: USD, id: '10026_2', time: 1591810832022}

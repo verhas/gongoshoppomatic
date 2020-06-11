@@ -1,9 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: frank.vaughan@gongo.com
-bids: ['10023_0', '10023_1', '10023_2', '10023_3']
+bids: ['10023_0', '10023_1', '10023_2', '10023_3', '10023_4']
 currency: USD
-endTime: 1591903190848
-id: 10023
-minimumPrice: 798.72
-productId: AVpf3txeLJeJML43FN82_82
-startTime: 1591384790848
+endTime: 1592091617005
+id: '10023'
+minimumPrice: 655.4
+productId: AVphUeKeilAPnD_x3-Be_73
+startTime: 1591314017005

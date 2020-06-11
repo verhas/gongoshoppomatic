@@ -1,3 +1,0 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 351039440.70, bidder: rebecca.metcalfe@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 351039440.70, currency: USD, id: '10089_4',
-  time: 1591805849337}

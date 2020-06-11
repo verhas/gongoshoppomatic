@@ -1,10 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: dorothy.underwood@gongo.com
-bids: ['10005_0', '10005_1', '10005_2', '10005_3', '10005_4', '10005_5', '10005_6',
-  '10005_7', '10005_8']
+bids: ['10005_0', '10005_1', '10005_2', '10005_3', '10005_4']
 currency: USD
-endTime: 1592335190763
-id: 10005
-minimumPrice: 605.43
-productId: AVpf3txeLJeJML43FN82_67
-startTime: 1591816790763
+endTime: 1592091616901
+id: '10005'
+minimumPrice: 256.38
+productId: AVpg8GjjLJeJML43Uplr_59
+startTime: 1591573216901

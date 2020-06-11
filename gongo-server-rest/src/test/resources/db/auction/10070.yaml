@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: hannah.brown@gongo.com
-bids: ['10070_0', '10070_1', '10070_2']
-currency: USD
-endTime: 1591989591033
-id: 10070
-minimumPrice: 2.42
-productId: AVpf3txeLJeJML43FN82_81
-startTime: 1591643991033

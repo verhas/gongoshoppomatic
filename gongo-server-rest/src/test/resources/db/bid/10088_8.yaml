@@ -1,3 +1,0 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 1084402713.16, bidder: alan.dickens@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 1084402713.16, currency: USD, id: '10088_8',
-  time: 1591815295816}

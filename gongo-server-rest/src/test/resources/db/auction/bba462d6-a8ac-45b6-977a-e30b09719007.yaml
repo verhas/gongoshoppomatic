@@ -1,0 +1,9 @@
+!!com.epam.vpase.gongo.core.Auction
+auctioner: user1
+bids: []
+currency: USD
+endTime: 1592431200000
+id: bba462d6-a8ac-45b6-977a-e30b09719007
+minimumPrice: !!float '47'
+productId: AVpivePGilAPnD_xHH0l_80
+startTime: 1591912800000

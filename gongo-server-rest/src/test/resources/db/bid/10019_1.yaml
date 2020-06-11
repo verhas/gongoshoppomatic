@@ -1,3 +1,2 @@
-!!com.epam.vpase.gongo.core.Bid {amount: 528.49, bidder: abigail.nolan@gongo.com,
-  conversionRate: !!float '1', convertedAmount: 528.49, currency: USD, id: '10019_1',
-  time: 1591557620835}
+!!com.epam.vpase.gongo.core.Bid {amount: 274.9, bidder: sally.forsyth@gongo.com, conversionRate: !!float '1',
+  convertedAmount: 274.9, currency: USD, id: '10019_1', time: 1591832446991}

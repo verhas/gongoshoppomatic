@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: eric.poole@gongo.com
-bids: ['10090_0', '10090_1', '10090_2', '10090_3']
-currency: USD
-endTime: 1591816791072
-id: 10090
-minimumPrice: 159.10
-productId: AVpf3txeLJeJML43FN82_87
-startTime: 1591557591072

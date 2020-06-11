@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: thomas.quinn@gongo.com
-bids: ['10098_0', '10098_1']
-currency: USD
-endTime: 1591816791096
-id: 10098
-minimumPrice: 763.58
-productId: AVpf3txeLJeJML43FN82_64
-startTime: 1591471191096

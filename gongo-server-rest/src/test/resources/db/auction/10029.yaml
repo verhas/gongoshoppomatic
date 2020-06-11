@@ -1,10 +1,9 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: matt.lee@gongo.com
-bids: ['10029_0', '10029_1', '10029_2', '10029_3', '10029_4', '10029_5', '10029_6',
-  '10029_7']
+bids: ['10029_0', '10029_1', '10029_2', '10029_3']
 currency: USD
-endTime: 1591816790871
-id: 10029
-minimumPrice: 319.57
-productId: AVpf3txeLJeJML43FN82_20
-startTime: 1591816790871
+endTime: 1592350817028
+id: '10029'
+minimumPrice: 262.70
+productId: AVpfnp8HLJeJML43AmVi_96
+startTime: 1591400417028

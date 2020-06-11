@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: emma.mills@gongo.com
-bids: ['10071_0', '10071_1', '10071_2', '10071_3', '10071_4', '10071_5']
-currency: USD
-endTime: 1592335191034
-id: 10071
-minimumPrice: 288.93
-productId: AVpf3txeLJeJML43FN82_15
-startTime: 1591298391034

@@ -1,9 +1,10 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: hannah.brown@gongo.com
-bids: ['10012_0', '10012_1', '10012_2', '10012_3', '10012_4', '10012_5', '10012_6']
+bids: ['10012_0', '10012_1', '10012_2', '10012_3', '10012_4', '10012_5', '10012_6',
+  '10012_7']
 currency: USD
-endTime: 1591989590801
-id: 10012
-minimumPrice: 299.98
-productId: AVpf3txeLJeJML43FN82_46
-startTime: 1591471190801
+endTime: 1591832416944
+id: '10012'
+minimumPrice: 614.74
+productId: AV2Zps11GV-KLJ3al16A_58
+startTime: 1591400416944

@@ -6,7 +6,6 @@ import com.epam.vpase.gongo.core.Product;
 import com.epam.vpase.gongo.message.AuctionRequest;
 import com.epam.vpase.gongo.message.AuctionResponse;
 import com.epam.vpase.gongo.message.BidRequest;
-import com.epam.vpase.gongo.message.PostResponse;
 import com.epam.vpase.gongo.services.AuctionRegister;
 import com.epam.vpase.gongo.services.AuctionService;
 import com.epam.vpase.gongo.services.AuctionServiceDispatcher;
@@ -20,16 +19,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.math.BigDecimal;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.Principal;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import static com.epam.vpase.gongo.PersistenceManagers.auctionManager;
@@ -57,12 +52,21 @@ public class PresentationService {
     }
 
     @GetMapping("/list/auctions/{id}")
-    public List<String> listAuctions(@PathVariable(value = "id", required = true) String id) {
+    public List<AuctionResponse> listAuctions(@PathVariable(value = "id", required = true) String id) {
         if (id.equals("*")) {
             id = "";
         }
-        List<String> res = new ArrayList<String>(auctionManager.list(id));
-        Collections.sort(res);
+        List<AuctionResponse> res = new ArrayList<AuctionResponse>();
+        for (String auctionId : auctionManager.list(id)) {
+            AuctionResponse auctionResponse = new AuctionResponse();
+            auctionResponse.auction = auctionManager.load(auctionId);
+            auctionResponse.product = productManager.load(auctionResponse.auction.productId);
+            for (String bidId : auctionResponse.auction.bids) {
+                Bid bid = bidManager.load(bidId);
+                auctionResponse.bidList.add(bid);
+            }
+            res.add(auctionResponse);
+        }
         return res;
     }
 
@@ -72,18 +76,25 @@ public class PresentationService {
     }
 
     @GetMapping("/list/products/{id}")
-    public List<String> listProducts(@PathVariable(value = "id", required = true) String id) {
+    public List<Product> listProducts(@PathVariable(value = "id", required = true) String id) {
         if (id.equals("*")) {
             id = "";
         }
-        return productManager.list(id);
+        List<Product> products = new ArrayList<>();
+        for (String productId : productManager.list(id)) {
+            Product product = productManager.load(productId);
+            products.add(product);
+        }
+        return products;
     }
 
 
-    @GetMapping("/index")
+    @GetMapping("/html/{page}")
     @ResponseBody
-    public String index() throws IOException {
-        return Files.readString(Path.of("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/main/resources/index.html"));
+    public String index(@PathVariable(value = "page", required = true) final String page) throws IOException {
+        return Files.readString(Path.of(
+            "/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/main/resources/"
+                + page + ".html"));
     }
 
     @Autowired
@@ -103,11 +114,11 @@ public class PresentationService {
     AuctionRegister register;
 
     @PostMapping("/auction/")
-    public void auction(@RequestBody AuctionRequest auctionRequest, Principal principal) {
+    public String auction(@RequestBody AuctionRequest auctionRequest, Principal principal) {
         String login = principal.getName();
 
         Auction auction = convertPostDataToAuction(auctionRequest, login);
-        register.scheduleAuction(auction);
+        return register.scheduleAuction(auction);
     }
 
     private Auction convertPostDataToAuction(AuctionRequest auction, String user) {

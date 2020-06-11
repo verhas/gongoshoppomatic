@@ -1,9 +1,0 @@
-!!com.epam.vpase.gongo.core.Auction
-auctioner: andrea.taylor@gongo.com
-bids: ['10054_0', '10054_1', '10054_2', '10054_3', '10054_4', '10054_5', '10054_6']
-currency: USD
-endTime: 1591989590980
-id: 10054
-minimumPrice: 581.22
-productId: AVpf3txeLJeJML43FN82_5
-startTime: 1591384790980

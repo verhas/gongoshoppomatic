@@ -88,7 +88,8 @@ public class TestCreateSampleAuction {
         System.out.println("header:" + line);
         Manager<Product> productManager = new ManagerImpl<>("db/product");
         int j = 100;
-        while ((line = reader.readLine()) != null && j-- > 0) {
+        String previousName = "";
+        while ((line = reader.readLine()) != null && j > 0) {
             String[] elements = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
             Product product = new Product();
             int i = 0;
@@ -119,7 +120,11 @@ public class TestCreateSampleAuction {
             product.sourceURLs = elements[i++];
             product.upc = elements[i++];
             product.weight = elements[i++];
-            productManager.save(product);
+            if (!previousName.equals(product.name)) {
+                productManager.save(product);
+                j--;
+            }
+            previousName = product.name;
         }
     }
 

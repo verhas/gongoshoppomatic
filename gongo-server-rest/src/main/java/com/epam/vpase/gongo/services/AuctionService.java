@@ -13,12 +13,20 @@ public class AuctionService {
         if (!bid.currency.equals("USD")) {
             throw new Exceptions.Currency();
         }
-        final Auction auction = auctionManager.load(auctionId);
+        final Auction auction;
+        try {
+            auction = auctionManager.load(auctionId);
+        } catch (Exception e) {
+            throw new Exceptions.Auction(auctionId);
+        }
         for (String bidId : auction.bids) {
             Bid existingBid = bidManager.load(bidId);
             if (existingBid.amount.compareTo(bid.amount) > 0) {
                 throw new Exceptions.AmountIsLow();
             }
+        }
+        if( bid.amount.compareTo(auction.minimumPrice) < 0 ){
+            throw new Exceptions.AmountIsLow();
         }
         bid.id = auctionId + "_" + auction.bids.size();
         auction.bids.add(bid.id);
