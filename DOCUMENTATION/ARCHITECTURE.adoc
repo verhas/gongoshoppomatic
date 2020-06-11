@@ -62,7 +62,7 @@ The components on the picture are:
 
 2. UI is a client application utilizing HTML, CSS, JavaScript (TypeScript) technologies.
 
-3. Management Presentation Service presents the data in JSON format as REST service for the management interface. The
+3. Management Presentation Service presents the data in JSON format as REST service for the management #interface#. The
    service connects to the internal systems. For the PoC these connections are not depicted on the diagram.
 
 4. Presentation Service (PS) presents the data JSON formatted as REST service to the UI. This component connects to the
@@ -95,7 +95,7 @@ The components on the picture are:
 12. User Registry manages the set of the users. This component stores the parameters of the registered users and also
     manages the user verification process.
 
-13. Verification INterface is a unified interface that can communicate with the different external Verification
+13. Verification #Interface# is a unified interface that can communicate with the different external Verification
     Providers.
 
 14. Verification Providers are external service providers, who provide user verification service either online or
@@ -111,6 +111,16 @@ The components on the picture are:
 
 17. DataWarehouse stores all transactional data for analysis purposes and to calculate statistical information in a
     scheduled manner.
+
+18. Authentication is done using JWT tokens and OAuth protocol. This makes it possible to use external authentication
+    services hardened with other measures if needed.
+
+19. Event Queue is an Apache Kafka based message queue that serves information about events to all components that need
+    to be informed. The Audit trails and the chat bot are also fed from this source.
+
+20. Chatbot service is a chat component according to the requirements. The actual communication with the browser (HTTP
+    polling, Web socket etc.) is implemented in a module in the Presentation Service. The Chat Bot is the business
+    server component that manages, for example user subscriptions.
 
 == Auction Subsystem Architecture
 

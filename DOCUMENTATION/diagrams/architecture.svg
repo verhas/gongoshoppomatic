@@ -61,15 +61,24 @@
         <path d="M 3.6 -3.6 C -.6 -3.6 -.6 3.6 3.6 3.6" fill="none" stroke="currentColor" stroke-width="1"/>
       </g>
     </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="EmptyCenterBall_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <circle cx="1.7999992" cy="0" r="1.79999817186192" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
   </defs>
   <metadata> Produced by OmniGraffle 7.16 
-    <dc:date>2020-06-11 09:07:11 +0000</dc:date>
+    <dc:date>2020-06-11 09:36:07 +0000</dc:date>
   </metadata>
   <g id="architecture" fill="none" stroke-opacity="1" stroke-dasharray="none" fill-opacity="1" stroke="none">
     <title>architecture</title>
     <rect fill="white" x="-526" y="-83" width="1824" height="1133"/>
     <g id="architecture: Layer 1">
       <title>Layer 1</title>
+      <g id="Graphic_395">
+        <rect x="90" y="843" width="704" height="154"/>
+        <rect x="90" y="843" width="704" height="154" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
       <g id="Group_514">
         <g id="Graphic_517" filter="url(#Shadow)">
           <rect x="950.0303" y="273" width="160.33333" height="75" fill="white"/>
@@ -86,10 +95,6 @@
           <rect x="925.3636" y="318" width="43.166667" height="15" fill="white"/>
           <rect x="925.3636" y="318" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         </g>
-      </g>
-      <g id="Graphic_395">
-        <rect x="90" y="843" width="704" height="154"/>
-        <rect x="90" y="843" width="704" height="154" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_32">
         <path d="M 461.54095 269 L 461.54095 242.76 C 461.54095 239.4463 458.85466 236.76 455.54095 236.76 L 443.34574 236.76 C 440.03204 236.76 437.34574 234.0737 437.34574 230.76 L 437.34574 217.02738" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
@@ -347,17 +352,8 @@
       <g id="Line_157">
         <line x1="517" y1="553" x2="517" y2="538.15734" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
-      <g id="Line_159">
-        <path d="M 432 463.5 L 422.0153 463.5 C 422.0051 463.5 421.9949 463.5 421.9847 463.4999 L 345.7055 463.11135" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
-      </g>
-      <g id="Line_160">
-        <path d="M 289.30952 638 L 289.30952 469.0814 C 289.30952 465.7677 291.9958 463.0814 295.30952 463.0814 L 317.19023 463.0814" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
-      </g>
       <g id="Line_162">
         <line x1="369.4762" y1="656.75" x2="405.1681" y2="656.75" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
-      </g>
-      <g id="Line_161">
-        <path d="M 517 628 L 517 648.2719 C 517 651.5731 514.33315 654.2542 511.03196 654.2718 L 436.92265 654.6666 C 436.912 654.6666 436.90134 654.6667 436.8907 654.6667 L 426.90667 654.6667" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_171">
         <line x1="928.8964" y1="432.5" x2="873.4626" y2="432.5" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
@@ -369,7 +365,7 @@
         <path d="M -176.33378 420.21144 L -150.11182 420.21144 C -150.0998 420.21144 -150.08776 420.2114 -150.07573 420.21133 L -132.22834 420.10396 C -132.21631 420.1039 -132.20428 420.10385 -132.19225 420.10385 L -122.2103 420.10385" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_182">
-        <line x1="61.99333" y1="471.6104" x2="138.5586" y2="901.2257" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        <line x1="84.41558" y1="472.05515" x2="139.50205" y2="901.0811" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Line_183">
         <line x1="431" y1="433.5" x2="390.314" y2="433.5" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
@@ -462,23 +458,6 @@
           </g>
         </g>
       </g>
-      <g id="Group_167">
-        <g id="Graphic_170" filter="url(#Shadow)">
-          <rect x="953.5631" y="410" width="160.33333" height="75" fill="white"/>
-          <rect x="953.5631" y="410" width="160.33333" height="75" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-          <text transform="translate(959.5631 438.5)" fill="#515556">
-            <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="35.979164" y="13">Event Queue</tspan>
-          </text>
-        </g>
-        <g id="Graphic_169">
-          <rect x="928.8964" y="425" width="43.166667" height="15" fill="white"/>
-          <rect x="928.8964" y="425" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-        </g>
-        <g id="Graphic_168">
-          <rect x="928.8964" y="455" width="43.166667" height="15" fill="white"/>
-          <rect x="928.8964" y="455" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-        </g>
-      </g>
       <g id="Graphic_195">
         <path d="M 1091.268 345.20143 L 1093.3668 345.20143 L 1093.3668 347.30017 C 1093.3668 347.6865 1093.68 347.99974 1094.0663 347.99974 L 1123.4486 347.99974 C 1123.8349 347.99974 1124.1482 347.6865 1124.1482 347.30017 L 1124.1482 344.50186 L 1122.749 344.50186 L 1122.749 346.6006 L 1094.7659 346.6006 L 1094.7659 345.20143 L 1110.8562 345.20143 L 1110.8562 343.80228 L 1091.9676 343.80228 L 1091.9676 313.72045 L 1097.5642 313.72045 C 1097.9506 313.72045 1098.2638 313.4072 1098.2638 313.02087 L 1098.2638 307.42425 L 1119.9507 307.42425 L 1119.9507 320.71623 L 1121.3499 320.71623 L 1121.3499 310.22256 L 1122.749 310.22256 L 1122.749 322.11538 L 1124.1482 322.11538 L 1124.1482 309.523 C 1124.1482 309.13665 1123.8349 308.8234 1123.4486 308.8234 L 1121.3499 308.8234 L 1121.3499 306.72468 C 1121.3499 306.33834 1121.0366 306.0251 1120.6503 306.0251 L 1097.5642 306.0251 C 1097.5502 306.0251 1097.5376 306.03227 1097.5236 306.03364 C 1097.46 306.0367 1097.3972 306.04935 1097.3371 306.07053 C 1097.3162 306.07668 1097.2961 306.0842 1097.2759 306.0924 C 1097.1994 306.12587 1097.1294 306.17335 1097.0696 306.2321 L 1090.7734 312.5283 C 1090.715 312.58774 1090.6675 312.65742 1090.6337 312.7336 C 1090.6238 312.7551 1090.6183 312.77698 1090.6105 312.7992 C 1090.5903 312.85725 1090.5784 312.9177 1090.575 312.97886 C 1090.575 312.99423 1090.5657 313.00755 1090.5657 313.02292 L 1090.5657 344.50186 C 1090.5657 344.68802 1090.6398 344.86633 1090.7717 344.9975 C 1090.9036 345.129 1091.0822 345.2021 1091.268 345.20143 L 1091.268 345.20143 M 1096.8646 308.4135 L 1096.8646 312.3213 L 1092.9569 312.3213 L 1096.8646 308.4135" fill="black"/>
       </g>
@@ -507,10 +486,7 @@
         <path d="M 184.4762 659.4762 L 174.51762 659.4762 C 174.49 659.4762 174.46238 659.476 174.43476 659.4756 L 145.87944 659.0812" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_205">
-        <line x1="62.22333" y1="471.8404" x2="132.47307" y2="640.8874" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
-      </g>
-      <g id="Line_206">
-        <line x1="142.16" y1="434.1104" x2="364.90955" y2="434.49035" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        <line x1="84.41558" y1="472.05515" x2="134.40994" y2="640.1992" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Line_207">
         <line x1="582" y1="306.5" x2="850.1011" y2="426.65415" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
@@ -519,88 +495,82 @@
         <line x1="582" y1="429.75" x2="848.6189" y2="434.5526" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Line_209">
-        <path d="M 370.20397 933.7302 L 676.9309 774.7051 L 858.3914 451.77545" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        <path d="M 370.23773 903.9325 L 676.9309 774.7051 L 858.3914 451.77545" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Group_260">
         <g id="Group_237">
           <g id="Graphic_240" filter="url(#Shadow)">
-            <rect x="595.5067" y="911.7683" width="160.33333" height="75" fill="white"/>
-            <rect x="595.5067" y="911.7683" width="160.33333" height="75" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-            <text transform="translate(601.5067 940.2683)" fill="#515556">
+            <rect x="595.5067" y="896.1056" width="160.33333" height="75" fill="white"/>
+            <rect x="595.5067" y="896.1056" width="160.33333" height="75" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <text transform="translate(601.5067 924.6056)" fill="#515556">
               <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="14.308164" y="13">Exchange Calculator</tspan>
             </text>
           </g>
           <g id="Graphic_239">
-            <rect x="570.84" y="926.7683" width="43.166667" height="15" fill="white"/>
-            <rect x="570.84" y="926.7683" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <rect x="570.84" y="911.1056" width="43.166667" height="15" fill="white"/>
+            <rect x="570.84" y="911.1056" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
           </g>
           <g id="Graphic_238">
-            <rect x="570.84" y="956.7683" width="43.166667" height="15" fill="white"/>
-            <rect x="570.84" y="956.7683" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <rect x="570.84" y="941.1056" width="43.166667" height="15" fill="white"/>
+            <rect x="570.84" y="941.1056" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
           </g>
         </g>
         <g id="Group_241">
           <g id="Graphic_259">
-            <path d="M 777.3781 963.8129 L 771.2189 963.8129 L 777.8853 957.1465 C 778.1658 956.8661 778.1658 956.4127 777.8853 956.1322 L 764.2555 942.5025 C 763.97505 942.222 763.5217 942.222 763.2412 942.5025 L 741.9307 963.8129 L 734.3368 963.8129 C 733.9401 963.8129 733.6195 964.1343 733.6195 964.5303 L 733.6195 983.1815 C 733.6195 983.5775 733.9401 983.8989 734.3368 983.8989 L 744.80015 983.8989 L 747.4594 986.5581 C 747.5993 986.698 747.7829 986.7683 747.9666 986.7683 C 748.1502 986.7683 748.3338 986.698 748.4737 986.5581 L 751.1337 983.8989 L 777.3781 983.8989 C 777.7748 983.8989 778.0955 983.5775 778.0955 983.1815 L 778.0955 964.5303 C 778.0955 964.1343 777.7748 963.8129 777.3781 963.8129 Z M 763.7484 944.024 L 776.3638 956.6394 L 769.1902 963.8129 L 763.7132 963.8129 C 763.5489 961.9765 762.757 960.2706 761.43705 958.9507 C 758.361 955.8747 753.3546 955.874 750.2772 958.9507 C 748.9579 960.2706 748.166 961.9765 748.001 963.8129 L 743.9587 963.8129 Z M 752.4335 963.8129 C 752.336 963.3466 752.4665 962.8481 752.8137 962.5016 L 754.1258 963.8129 Z M 760.17235 963.8129 C 760.0934 963.7089 760.0088 963.6085 759.9155 963.5159 C 758.79575 962.3976 756.9765 962.3969 755.8575 963.5159 L 753.8281 961.4873 C 754.3704 960.9457 755.3144 960.9457 755.8567 961.4873 L 756.8711 960.4729 C 756.3288 959.9313 755.6085 959.6329 754.8424 959.6329 C 754.0763 959.6329 753.3553 959.9313 752.8137 960.4729 L 752.813 960.4736 L 752.3058 959.9665 L 751.2915 960.9808 L 751.7987 961.488 C 751.1681 962.1185 750.8891 962.9729 750.9787 963.8144 L 749.4429 963.8144 C 749.6028 962.3617 750.2427 961.0152 751.2908 959.9665 C 753.8087 957.4493 757.9041 957.45 760.422 959.9665 C 761.47005 961.0152 762.11065 962.3617 762.2699 963.8144 L 760.17235 963.8144 Z M 747.9666 985.0366 L 746.8288 983.8989 L 749.1043 983.8989 Z M 776.6608 982.4642 L 735.0542 982.4642 L 735.0542 965.2476 L 776.6608 965.2476 Z" fill="black"/>
+            <path d="M 777.3781 948.1503 L 771.2189 948.1503 L 777.8853 941.4839 C 778.1658 941.2034 778.1658 940.75 777.8853 940.4696 L 764.2555 926.8398 C 763.97505 926.5593 763.5217 926.5593 763.2412 926.8398 L 741.9307 948.1503 L 734.3368 948.1503 C 733.9401 948.1503 733.6195 948.4716 733.6195 948.8676 L 733.6195 967.5189 C 733.6195 967.9148 733.9401 968.2362 734.3368 968.2362 L 744.80015 968.2362 L 747.4594 970.8954 C 747.5993 971.0353 747.7829 971.1056 747.9666 971.1056 C 748.1502 971.1056 748.3338 971.0353 748.4737 970.8954 L 751.1337 968.2362 L 777.3781 968.2362 C 777.7748 968.2362 778.0955 967.9148 778.0955 967.5189 L 778.0955 948.8676 C 778.0955 948.4716 777.7748 948.1503 777.3781 948.1503 Z M 763.7484 928.3613 L 776.3638 940.9767 L 769.1902 948.1503 L 763.7132 948.1503 C 763.5489 946.3138 762.757 944.608 761.43705 943.288 C 758.361 940.212 753.3546 940.2113 750.2772 943.288 C 748.9579 944.608 748.166 946.3138 748.001 948.1503 L 743.9587 948.1503 Z M 752.4335 948.1503 C 752.336 947.684 752.4665 947.1854 752.8137 946.839 L 754.1258 948.1503 Z M 760.17235 948.1503 C 760.0934 948.0463 760.0088 947.9458 759.9155 947.8533 C 758.79575 946.7349 756.9765 946.7342 755.8575 947.8533 L 753.8281 945.8246 C 754.3704 945.283 755.3144 945.283 755.8567 945.8246 L 756.8711 944.8103 C 756.3288 944.2687 755.6085 943.9702 754.8424 943.9702 C 754.0763 943.9702 753.3553 944.2687 752.8137 944.8103 L 752.813 944.811 L 752.3058 944.3038 L 751.2915 945.3182 L 751.7987 945.8253 C 751.1681 946.4559 750.8891 947.3103 750.9787 948.1517 L 749.4429 948.1517 C 749.6028 946.6991 750.2427 945.3526 751.2908 944.3038 C 753.8087 941.7866 757.9041 941.7873 760.422 944.3038 C 761.47005 945.3526 762.11065 946.6991 762.2699 948.1517 L 760.17235 948.1517 Z M 747.9666 969.3739 L 746.8288 968.2362 L 749.1043 968.2362 Z M 776.6608 966.8015 L 735.0542 966.8015 L 735.0542 949.585 L 776.6608 949.585 Z" fill="black"/>
           </g>
           <g id="Graphic_258">
-            <path d="M 753.7054 976.008 L 752.2707 976.008 C 752.2707 977.5904 753.5576 978.8774 755.1401 978.8774 L 755.1401 979.5947 L 756.5748 979.5947 L 756.5748 978.8774 C 758.1573 978.8774 759.4442 977.5904 759.4442 976.008 C 759.4442 974.4255 758.1573 973.1385 756.5748 973.1385 L 756.5748 970.2691 C 757.3661 970.2691 758.0095 970.9126 758.0095 971.7038 L 759.4442 971.7038 C 759.4442 970.1213 758.1573 968.8344 756.5748 968.8344 L 756.5748 968.117 L 755.1401 968.117 L 755.1401 968.8344 C 753.5576 968.8344 752.2707 970.1213 752.2707 971.7038 C 752.2707 973.2863 753.5576 974.5732 755.1401 974.5732 L 755.1401 977.4427 C 754.3489 977.4427 753.7054 976.7992 753.7054 976.008 Z M 753.7054 971.7038 C 753.7054 970.9126 754.3489 970.2691 755.1401 970.2691 L 755.1401 973.1385 C 754.3489 973.1385 753.7054 972.4951 753.7054 971.7038 Z M 756.5748 974.5732 C 757.3661 974.5732 758.0095 975.2167 758.0095 976.008 C 758.0095 976.7992 757.3661 977.4427 756.5748 977.4427 Z" fill="black"/>
+            <path d="M 753.7054 960.3453 L 752.2707 960.3453 C 752.2707 961.9278 753.5576 963.2147 755.1401 963.2147 L 755.1401 963.9321 L 756.5748 963.9321 L 756.5748 963.2147 C 758.1573 963.2147 759.4442 961.9278 759.4442 960.3453 C 759.4442 958.7628 758.1573 957.4759 756.5748 957.4759 L 756.5748 954.6065 C 757.3661 954.6065 758.0095 955.2499 758.0095 956.0412 L 759.4442 956.0412 C 759.4442 954.4587 758.1573 953.1718 756.5748 953.1718 L 756.5748 952.4544 L 755.1401 952.4544 L 755.1401 953.1718 C 753.5576 953.1718 752.2707 954.4587 752.2707 956.0412 C 752.2707 957.6237 753.5576 958.9106 755.1401 958.9106 L 755.1401 961.78 C 754.3489 961.78 753.7054 961.1366 753.7054 960.3453 Z M 753.7054 956.0412 C 753.7054 955.2499 754.3489 954.6065 755.1401 954.6065 L 755.1401 957.4759 C 754.3489 957.4759 753.7054 956.8324 753.7054 956.0412 Z M 756.5748 958.9106 C 757.3661 958.9106 758.0095 959.5541 758.0095 960.3453 C 758.0095 961.1366 757.3661 961.78 756.5748 961.78 Z" fill="black"/>
           </g>
           <g id="Graphic_257">
-            <path d="M 755.8575 981.7468 C 760.2082 981.7468 763.7484 978.2067 763.7484 973.8559 C 763.7484 969.5051 760.2082 965.965 755.8575 965.965 C 751.5067 965.965 747.9666 969.5051 747.9666 973.8559 C 747.9666 978.2067 751.5067 981.7468 755.8575 981.7468 Z M 755.8575 967.3997 C 759.4177 967.3997 762.3137 970.2964 762.3137 973.8559 C 762.3137 977.4154 759.4177 980.3121 755.8575 980.3121 C 752.2972 980.3121 749.4013 977.4154 749.4013 973.8559 C 749.4013 970.2964 752.2972 967.3997 755.8575 967.3997 Z" fill="black"/>
+            <path d="M 755.8575 966.0841 C 760.2082 966.0841 763.7484 962.544 763.7484 958.1932 C 763.7484 953.8425 760.2082 950.3023 755.8575 950.3023 C 751.5067 950.3023 747.9666 953.8425 747.9666 958.1932 C 747.9666 962.544 751.5067 966.0841 755.8575 966.0841 Z M 755.8575 951.737 C 759.4177 951.737 762.3137 954.6337 762.3137 958.1932 C 762.3137 961.7528 759.4177 964.6494 755.8575 964.6494 C 752.2972 964.6494 749.4013 961.7528 749.4013 958.1932 C 749.4013 954.6337 752.2972 951.737 755.8575 951.737 Z" fill="black"/>
           </g>
           <g id="Graphic_256">
-            <path d="M 775.22605 980.3121 L 775.22605 967.3997 C 775.22605 967.0037 774.9054 966.6823 774.5087 966.6823 L 765.9004 966.6823 L 765.9004 968.117 L 773.7913 968.117 L 773.7913 979.5947 L 765.9004 979.5947 L 765.9004 981.0294 L 774.5087 981.0294 C 774.9054 981.0294 775.22605 980.7081 775.22605 980.3121 Z" fill="black"/>
+            <path d="M 775.22605 964.6494 L 775.22605 951.737 C 775.22605 951.3411 774.9054 951.0197 774.5087 951.0197 L 765.9004 951.0197 L 765.9004 952.4544 L 773.7913 952.4544 L 773.7913 963.9321 L 765.9004 963.9321 L 765.9004 965.3668 L 774.5087 965.3668 C 774.9054 965.3668 775.22605 965.0454 775.22605 964.6494 Z" fill="black"/>
           </g>
           <g id="Graphic_255">
-            <path d="M 737.2062 981.0294 L 745.8145 981.0294 L 745.8145 979.5947 L 737.9236 979.5947 L 737.9236 968.117 L 745.8145 968.117 L 745.8145 966.6823 L 737.2062 966.6823 C 736.8095 966.6823 736.4889 967.0037 736.4889 967.3997 L 736.4889 980.3121 C 736.4889 980.7081 736.8095 981.0294 737.2062 981.0294 Z" fill="black"/>
+            <path d="M 737.2062 965.3668 L 745.8145 965.3668 L 745.8145 963.9321 L 737.9236 963.9321 L 737.9236 952.4544 L 745.8145 952.4544 L 745.8145 951.0197 L 737.2062 951.0197 C 736.8095 951.0197 736.4889 951.3411 736.4889 951.737 L 736.4889 964.6494 C 736.4889 965.0454 736.8095 965.3668 737.2062 965.3668 Z" fill="black"/>
           </g>
           <g id="Graphic_254">
-            <rect x="765.9004" y="976.7253" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="765.9004" y="961.0627" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_253">
-            <rect x="768.76985" y="976.7253" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="768.76985" y="961.0627" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_252">
-            <rect x="765.9004" y="969.5518" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="765.9004" y="953.8891" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_251">
-            <rect x="768.76985" y="969.5518" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="768.76985" y="953.8891" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_250">
-            <path d="M 763.9435 948.3281 L 772.0589 956.4443 L 766.4793 962.0238 L 767.4937 963.0382 L 773.5804 956.9514 C 773.8609 956.6709 773.8609 956.2176 773.5804 955.9371 L 764.4507 946.8066 C 764.18165 946.5376 763.7053 946.5376 763.4363 946.8066 L 757.3496 952.8933 L 758.3639 953.9077 Z" fill="black"/>
+            <path d="M 763.9435 932.6654 L 772.0589 940.7816 L 766.4793 946.3612 L 767.4937 947.3755 L 773.5804 941.2888 C 773.8609 941.0083 773.8609 940.5549 773.5804 940.2744 L 764.4507 931.1439 C 764.18165 930.8749 763.7053 930.8749 763.4363 931.1439 L 757.3496 937.2307 L 758.3639 938.245 Z" fill="black"/>
           </g>
           <g id="Graphic_249">
-            <path d="M 764.4463 959.9964 L 765.4606 958.9821 L 766.475 959.9964 L 765.4606 961.0108 Z" fill="black"/>
+            <path d="M 764.4463 944.3338 L 765.4606 943.3195 L 766.475 944.3338 L 765.4606 945.3481 Z" fill="black"/>
           </g>
           <g id="Graphic_248">
-            <path d="M 766.4745 957.9674 L 767.4888 956.9531 L 768.5031 957.9674 L 767.4888 958.9817 Z" fill="black"/>
+            <path d="M 766.4745 942.3048 L 767.4888 941.2904 L 768.5031 942.3048 L 767.4888 943.3191 Z" fill="black"/>
           </g>
           <g id="Graphic_247">
-            <path d="M 759.3745 954.9245 L 760.38885 953.9102 L 761.4032 954.9245 L 760.38885 955.9389 Z" fill="black"/>
+            <path d="M 759.3745 939.2619 L 760.38885 938.2475 L 761.4032 939.2619 L 760.38885 940.2762 Z" fill="black"/>
           </g>
           <g id="Graphic_246">
-            <path d="M 761.4027 952.8955 L 762.417 951.8812 L 763.4314 952.8955 L 762.417 953.9098 Z" fill="black"/>
+            <path d="M 761.4027 937.2328 L 762.417 936.2185 L 763.4314 937.2328 L 762.417 938.2472 Z" fill="black"/>
           </g>
           <g id="Graphic_245">
-            <rect x="741.5104" y="969.5518" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="741.5104" y="953.8891" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_244">
-            <rect x="744.3798" y="969.5518" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="744.3798" y="953.8891" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_243">
-            <rect x="741.5104" y="976.7253" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="741.5104" y="961.0627" width="1.43471" height="1.43471" fill="black"/>
           </g>
           <g id="Graphic_242">
-            <rect x="744.3798" y="976.7253" width="1.43471" height="1.43471" fill="black"/>
+            <rect x="744.3798" y="961.0627" width="1.43471" height="1.43471" fill="black"/>
           </g>
         </g>
-      </g>
-      <g id="Line_261">
-        <line x1="570.84" y1="933.6894" x2="531.40423" y2="933.6894" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
-      </g>
-      <g id="Line_262">
-        <path d="M 369.3162 934.1904 L 449.30565 934.1904 C 449.444 934.1904 449.5562 934.0783 449.5562 933.9399 L 449.5562 933.9399 C 449.5562 933.8015 449.66836 933.6894 449.80673 933.6894 L 513.4701 933.6894" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Group_287">
         <g id="Group_277">
@@ -644,7 +614,7 @@
         <line x1="183.3962" y1="758" x2="146.80405" y2="758" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_289">
-        <line x1="62.69333" y1="472.3104" x2="135.91273" y2="740.4238" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        <line x1="84.41558" y1="472.05515" x2="137.28445" y2="740.1017" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Group_323">
         <g id="Group_172">
@@ -782,24 +752,24 @@
         <path d="M 370.4204 746.6232 L 592.3077 669.2308 L 853.6883 448.0074" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Line_326">
-        <line x1="754.84" y1="933.6904" x2="879.2259" y2="934.1896" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        <line x1="754.84" y1="918.0278" x2="879.2259" y2="918.5269" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Group_347">
         <g id="Graphic_350" filter="url(#Shadow)">
-          <rect x="921.5704" y="911.7683" width="147.74728" height="75" fill="#666"/>
-          <rect x="921.5704" y="911.7683" width="147.74728" height="75" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-          <text transform="translate(927.5704 931.2683)" fill="white">
+          <rect x="921.5704" y="896.1056" width="147.74728" height="75" fill="#666"/>
+          <rect x="921.5704" y="896.1056" width="147.74728" height="75" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(927.5704 915.6056)" fill="white">
             <tspan font-family="Avenir" font-size="13" font-weight="400" fill="white" x="16.081642" y="13">External Currency </tspan>
             <tspan font-family="Avenir" font-size="13" font-weight="400" fill="white" x="26.553142" y="31">Ratio Provider</tspan>
           </text>
         </g>
         <g id="Graphic_349">
-          <rect x="898.84" y="926.7683" width="39.778114" height="15" fill="#666"/>
-          <rect x="898.84" y="926.7683" width="39.778114" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="898.84" y="911.1056" width="39.778114" height="15" fill="#666"/>
+          <rect x="898.84" y="911.1056" width="39.778114" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         </g>
         <g id="Graphic_348">
-          <rect x="898.84" y="956.7683" width="39.778114" height="15" fill="#666"/>
-          <rect x="898.84" y="956.7683" width="39.778114" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="898.84" y="941.1056" width="39.778114" height="15" fill="#666"/>
+          <rect x="898.84" y="941.1056" width="39.778114" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         </g>
       </g>
       <g id="Group_351">
@@ -1092,7 +1062,7 @@
         <path d="M -51.49069 736.2982 L -51.49069 720.43765 C -51.49069 720.42466 -51.49073 720.4117 -51.490815 720.3987 L -51.628463 699.2132" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_460">
-        <line x1="61.99333" y1="471.6104" x2="-42.719087" y2="675.8788" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        <line x1="16.919918" y1="471.6104" x2="-45.870276" y2="674.5951" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
       </g>
       <g id="Group_461">
         <title>Component</title>
@@ -1212,11 +1182,81 @@
       <g id="Line_529">
         <path d="M 47 177 L 47 191.6218 C 47 191.6427 46.99989 191.6636 46.99967 191.6845 L 46.9083 200.42663" marker-end="url(#EmptyCenterBall_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
       </g>
-      <g id="Line_530">
-        <path d="M 47.09564 269 L 47.09564 242.83306 C 47.09564 242.78436 47.095047 242.73565 47.09386 242.68696 L 46.848626 232.61935 C 46.84744 232.57066 46.846847 232.52195 46.846847 232.47324 L 46.846847 222.5463" marker-end="url(#UML2Socket_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
-      </g>
       <g id="Line_532">
-        <path d="M 142.16 409.55256 L 218.32298 408.3851 L 215.52795 206.8323 L 57.746794 206.3403" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path d="M 142.16 409.55256 L 205.0791 409.55256 C 207.84051 409.55256 210.0791 407.314 210.0791 404.55256 L 210.0791 211.3063 C 210.0791 208.54488 207.84051 206.3063 205.0791 206.3063 L 57.74685 206.3063" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_533">
+        <path d="M 112 138.5 L 379.5238 138.5 C 382.28523 138.5 384.5238 140.73858 384.5238 143.5 L 384.5238 423.6238" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_534">
+        <path d="M 289.295 637 L 286.77686 463.63636 L 366.53738 463.7159" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_536">
+        <line x1="432" y1="463.5" x2="381.03734" y2="463.7118" marker-end="url(#EmptyCenterBall_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_537">
+        <line x1="142.16" y1="434.1104" x2="373.62383" y2="434.5052" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_538">
+        <line x1="47.09564" y1="269" x2="46.8901" y2="217.20622" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_539">
+        <path d="M 517 628 L 517 654.6667 L 421.56667 654.6667" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_542">
+        <g id="Group_167">
+          <g id="Graphic_170" filter="url(#Shadow)">
+            <rect x="953.5631" y="410" width="160.33333" height="75" fill="white"/>
+            <rect x="953.5631" y="410" width="160.33333" height="75" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <text transform="translate(959.5631 438.5)" fill="#515556">
+              <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="35.979164" y="13">Event Queue</tspan>
+            </text>
+          </g>
+          <g id="Graphic_169">
+            <rect x="928.8964" y="425" width="43.166667" height="15" fill="white"/>
+            <rect x="928.8964" y="425" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <g id="Graphic_168">
+            <rect x="928.8964" y="455" width="43.166667" height="15" fill="white"/>
+            <rect x="928.8964" y="455" width="43.166667" height="15" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="Graphic_541">
+          <title>Database</title>
+          <path d="M 1116.3544 495.78563 L 1054.0045 495.78563 C 1049.7023 495.78563 1046.2107 490.45765 1046.2107 483.8928 C 1046.2107 477.328 1049.7023 472 1054.0045 472 L 1116.3544 472 C 1120.6566 472 1124.1482 477.328 1124.1482 483.8928 C 1124.1482 490.45765 1120.6566 495.78563 1116.3544 495.78563" fill="white"/>
+          <path d="M 1116.3544 495.78563 L 1054.0045 495.78563 C 1049.7023 495.78563 1046.2107 490.45765 1046.2107 483.8928 C 1046.2107 477.328 1049.7023 472 1054.0045 472 L 1116.3544 472 C 1120.6566 472 1124.1482 477.328 1124.1482 483.8928 C 1124.1482 490.45765 1120.6566 495.78563 1116.3544 495.78563 M 1054.0045 495.78563 C 1058.3066 495.78563 1061.7982 490.45765 1061.7982 483.8928 C 1061.7982 477.328 1058.3066 472 1054.0045 472" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1333333"/>
+        </g>
+      </g>
+      <g id="Group_547">
+        <g id="Graphic_550" filter="url(#Shadow)">
+          <rect x="48" y="-11" width="130" height="59.5" fill="#666"/>
+          <rect x="48" y="-11" width="130" height="59.5" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(54 -8.25)" fill="white">
+            <tspan font-family="Avenir" font-size="13" font-weight="400" fill="white" x="19.1355" y="13">Google / FB / </tspan>
+            <tspan font-family="Avenir" font-size="13" font-weight="400" fill="white" x="39.1295" y="31">Twitter</tspan>
+            <tspan font-family="Avenir" font-size="13" font-weight="400" fill="white" x="46.104" y="49">auth</tspan>
+          </text>
+        </g>
+        <g id="Graphic_549">
+          <rect x="28" y=".9" width="35" height="11.9" fill="#666"/>
+          <rect x="28" y=".9" width="35" height="11.9" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_548">
+          <rect x="28" y="24.7" width="35" height="11.9" fill="#666"/>
+          <rect x="28" y="24.7" width="35" height="11.9" stroke="#b9c0c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Line_551">
+        <path d="M 112 119.75 L 140.5 119.75 C 143.26142 119.75 145.5 117.51142 145.5 114.75 L 145.5 58.4" marker-end="url(#StickArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_552">
+        <line x1="370.3162" y1="919.9557" x2="431.1" y2="919.9933" marker-end="url(#UML2Socket_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_553">
+        <line x1="570.84" y1="918.6056" x2="445.5998" y2="919.961" marker-end="url(#EmptyCenterBall_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_554">
+        <path d="M 1083.1065 872 L 1083.1065 1032.6623 C 1083.1065 1035.4238 1080.868 1037.6623 1078.1065 1037.6623 L 66.99333 1037.6623 C 64.23191 1037.6623 61.99333 1035.4238 61.99333 1032.6623 L 61.99333 481.5104" marker-end="url(#StickArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
     </g>
   </g>
