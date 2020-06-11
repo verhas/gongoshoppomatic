@@ -9,6 +9,7 @@ The structure of the repository:
     - [Architecture document with diagrams](DOCUMENTATION/ARCHITECTURE.adoc)
     - [Requirements](DOCUMENTATION/REQUIREMENTS.md) (unedited, original)
     - [Requirement Analysis](DOCUMENTATION/REQUIREMENT_ANALYSIS.md) (rudimentary)
+    - [Requirements vs. PoC Compliancy Matrix](DOCUMENTATION/REQUIREMENT_COMLIANCE_MATRIX.adoc)
 - root directory contains the projects for the proof of concept application
     - `gongo-api` core classes, data models
     - `gongo-persistence` simple persistence interface (only save and load entities)
@@ -18,5 +19,5 @@ The structure of the repository:
     - `gondo-server-rest` is the module containing the code for the presentation server and
       the code of some business models. This version does not separate these into segregated
       services.
-- REFERENCE_DATA constant reference data
+- REFERENCE_DATA constant reference data in their raw format, for reproducability purposes.
 
