@@ -18,10 +18,10 @@ import java.util.List;
 import java.util.Random;
 
 public class TestCreateSampleAuction {
-    public Manager<Auction> auctionManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/test/resources/db/auction");
-    public Manager<User> userManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/test/resources/db/user");
-    public Manager<Product> productManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/test/resources/db/product");
-    public Manager<Bid> bidManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/test/resources/db/bid");
+    public Manager<Auction> auctionManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/main/resources/db/auction");
+    public Manager<User> userManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/main/resources/db/user");
+    public Manager<Product> productManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/main/resources/db/product");
+    public Manager<Bid> bidManager = new ManagerImpl<>("/Users/verhasp/OneDrive - EPAM/ASE_assessment/gongoshoppomatic/gongo-server-rest/src/main/resources/db/bid");
 
     //@Test
     void createSampleAuctions() {
@@ -128,7 +128,7 @@ public class TestCreateSampleAuction {
         }
     }
 
-    @Test
+    //@Test
     void time(){
         System.out.println(System.currentTimeMillis());
     }
