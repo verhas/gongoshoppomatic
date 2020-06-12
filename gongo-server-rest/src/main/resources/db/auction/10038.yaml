@@ -1,7 +1,7 @@
 !!com.epam.vpase.gongo.core.Auction
 auctioner: sally.forsyth@gongo.com
 bids: ['10038_0', '10038_1', '10038_2', '10038_3', '10038_4', '10038_5', '10038_6',
-  '10038_7']
+  '10038_7', '10038_8']
 currency: USD
 endTime: 1592264417077
 id: '10038'

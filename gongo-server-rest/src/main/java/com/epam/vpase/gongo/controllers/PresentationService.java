@@ -6,6 +6,7 @@ import com.epam.vpase.gongo.core.Product;
 import com.epam.vpase.gongo.message.AuctionRequest;
 import com.epam.vpase.gongo.message.AuctionResponse;
 import com.epam.vpase.gongo.message.BidRequest;
+import com.epam.vpase.gongo.message.DashboardResponse;
 import com.epam.vpase.gongo.services.AuctionRegister;
 import com.epam.vpase.gongo.services.AuctionService;
 import com.epam.vpase.gongo.services.AuctionServiceDispatcher;
@@ -21,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.Principal;
@@ -86,6 +88,31 @@ public class PresentationService {
             products.add(product);
         }
         return products;
+    }
+
+    @GetMapping("/dashboard/")
+    public DashboardResponse showDashboard() {
+        BigDecimal highestBid = BigDecimal.ZERO;
+        BigDecimal bidSum = BigDecimal.ZERO;
+        int nrOfBids = 0;
+        List<String> auctions = auctionManager.list("");
+        for (String auctionId : auctions) {
+            Auction auction = auctionManager.load(auctionId);
+            if (auction.bids.size() > 0) {
+                Bid bid = bidManager.load(auction.bids.get(auction.bids.size() - 1));
+                if (bid.amount.compareTo(highestBid) > 0) {
+                    highestBid = bid.amount;
+                }
+                bidSum = bidSum.add(bid.amount);
+                nrOfBids++;
+            }
+        }
+        DashboardResponse response = new DashboardResponse();
+        response.highestBid = highestBid;
+        response.averageBid = bidSum.divide(new BigDecimal(nrOfBids), RoundingMode.HALF_UP);
+        response.sumOfBid = bidSum;
+        response.numberOfBids = nrOfBids;
+        return response;
     }
 
 
